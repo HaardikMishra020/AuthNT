@@ -12,7 +12,7 @@ function App() {
     <div className='m-8'>
   {count > 0?
     <div className="h-screen flex justify-center items-center">
-      <h1 className='font-sans text-2xl'>This is the Safe Dashboard that requires to be Authenticated</h1>
+      <h1 className='font-sans text-2xl'>This is the Safe Dashboard that requires to be Authenticated. Keep it in Protected Route</h1>
     </div>:
     <LoginPage/>
   }</div>
